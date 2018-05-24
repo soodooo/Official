@@ -1,9 +1,10 @@
-Wind PythonÁ¿»¯½Ó¿ÚÔ´´úÂë
+Wind Pythoné‡åŒ–æ¥å£æºä»£ç 
 
-°²×°·½·¨£º
-> °ÑWindPy.py ·ÅÈëC:\Wind\Wind.NET.Client\WindNET\bin\
+å®‰è£…æ–¹æ³•ï¼š
+> æŠŠWindPy.py æ”¾å…¥C:\Wind\Wind.NET.Client\WindNET\bin\
 
 
-Ê¹ÓÃ·½·¨£º
-²Î¼û http://www.dajiangzhang.com/download WindÁ¿»¯Æ½Ì¨-ÓÃ»§ÊÖ²á(Python)
+ä½¿ç”¨æ–¹æ³•ï¼š
+å‚è§ http://www.dajiangzhang.com/download Windé‡åŒ–å¹³å°-ç”¨æˆ·æ‰‹å†Œ(Python)
+
 
