@@ -163,17 +163,19 @@ class w:
     """
     
     sitepath=".";
-    for x in sys.path:
-        ix=x.find('site-packages')
-        if( ix>=0 and x[ix:]=='site-packages'):
-          sitepath=x;
-          break;
-    sitepath=sitepath+"\\WindPy.pth"
+    # for x in sys.path:
+    #     ix=x.find('site-packages')
+    #     if( ix>=0 and x[ix:]=='site-packages'):
+    #       sitepath=x;
+    #       break;
+    sitepath=sitepath+"/windpy/WindPy.pth"
+    print(sitepath)
     pathfile=open(sitepath)
     dllpath=pathfile.readlines();
     pathfile.close();
 
-    sitepath=dllpath[0]+"\\WindPy.dll"    
+    sitepath=dllpath[0]+"WindPy.dll"  
+    print(sitepath)  
     c_windlib=cdll.LoadLibrary(sitepath)
 
     #start
